@@ -1,0 +1,39 @@
+.first{
+    left: 0;
+    top: 0;
+    position: absolute;
+    animation-name: first;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes first{
+    0%{
+        opacity: 100;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+}
+
+.second{
+    left: 0;
+    top: 0;
+    position: absolute;
+    animation-name: second;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes second{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 100;
+    }
+    100%{
+        opacity: 0;
+    }
+}
