@@ -1,0 +1,406 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Sean Michael Da Ros">
+        <meta name="description" content="2020summer_roll_a">
+        <link rel="icon" href="../Images/favicon.ico" type="image/x-icon">
+        <title>2020summer_roll_a</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta name="format-detection" content="telephone=no"/>
+        <style type="text/css">
+            @font-face{
+				font-family:"Helvetica";
+				src:url("../Fonts/1489454/82081359-27f9-46f8-9b95-29ac9f5d12b7.woff2") format("woff2"),url("../Fonts/1489454/37ada2f7-cdec-4b2a-a311-3a127a2cf9e7.woff") format("woff");
+			}
+			@font-face {
+			  font-family: 'Times New Roman';
+			  font-style: italic;
+			  font-weight: 400;
+			  font-display: swap;
+			  src: url(../Fonts/times-italic.ttf);
+			}
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            .container{
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+                grid-template-areas: "siteTitle" "imageOne" "imageTwo" "imageThree" "imageFour" "imageFive" "imageSix" "imageSeven" "imageEight" "imageNine" "imageTen" "imageEleven" "imageTwelve" "imageThirteen" "imageFourteen" "imageFifteen" "imageSixteen" "imageSeventeen" "imageEighteen" "imageNineteen" "imageTwenty" "imageTwentyOne" "imageTwentyTwo" "imageTwentyThree" "imageTwentyFour" "imageTwentyFive" "imageTwentySix" "imageTwentySeven" "imageTwentyEight" "imageTwentyNine" "imageThirty" "imageThirtyOne" "imageThirtyTwo" "imageThirtyThree" "imageThirtyFour" "imageThirtyFive";
+            }
+
+            .siteTitle{
+                font-family: "Helvetica";
+                font-weight: bold;
+                font-size: 48;
+                margin-bottom: -10%;
+                padding-top: 35%;
+                text-align: center;
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                grid-area: siteTitle;
+            }
+            .imageOne{
+                grid-area: imageOne;
+                padding-bottom: 10%;
+            }
+            .imageTwo{
+                grid-area: imageTwo;
+                padding-bottom: 10%;
+            }
+            .imageThree{
+                grid-area: imageThree;
+                padding-bottom: 10%;
+            }
+            .imageFour{
+                grid-area: imageFour;
+                padding-bottom: 10%;
+            }
+            .imageFive{
+                grid-area: imageFive;
+                padding-bottom: 10%;
+            }
+            .imageSix{
+                grid-area: imageSix;
+                padding-bottom: 10%;
+            }
+            .imageSeven{
+                grid-area: imageSeven;
+                padding-bottom: 10%;
+            }
+            .imageEight{
+                grid-area: imageEight;
+                padding-bottom: 10%;
+            }
+            .imageNine{
+                grid-area: imageNine;
+                padding-bottom: 10%;
+            }
+            .imageTen{
+                grid-area: imageTen;
+                padding-bottom: 10%;
+            }
+            .imageEleven{
+                grid-area: imageEleven;
+                padding-bottom: 10%;
+            }
+            .imageTwelve{
+                grid-area: imageTwelve;
+                padding-bottom: 10%;
+            }
+            .imageThirteen{
+                grid-area: imageThirteen;
+                padding-bottom: 10%;
+            }
+            .imageFourteen{
+                grid-area: imageFourteen;
+                padding-bottom: 10%;
+            }
+            .imageFifteen{
+                grid-area: imageFifteen;
+                padding-bottom: 10%;
+            }
+            .imageSixteen{
+                grid-area: imageSixteen;
+                padding-bottom: 10%;
+            }
+            .imageSeventeen{
+                grid-area: imageSeventeen;
+                padding-bottom: 10%;
+            }
+            .imageEighteen{
+                grid-area: imageEighteen;
+                padding-bottom: 10%;
+            }
+            .imageNineteen{
+                grid-area: imageNineteen;
+                padding-bottom: 10%;
+            }
+            .imageTwenty{
+                grid-area: imageTwenty;
+                padding-bottom: 10%;
+            }
+            .imageTwentyOne{
+                grid-area: imageTwentyOne;
+                padding-bottom: 10%;
+            }
+            .imageTwentyTwo{
+                grid-area: imageTwentyTwo;
+                padding-bottom: 10%;
+            }
+            .imageTwentyThree{
+                grid-area: imageTwentyThree;
+                padding-bottom: 10%;
+            }
+            .imageTwentyFour{
+                grid-area: imageTwentyFour;
+                padding-bottom: 10%;
+            }
+            .imageTwentyFive{
+                grid-area: imageTwentyFive;
+                padding-bottom: 10%;
+            }
+            .imageTwentySix{
+                grid-area: imageTwentySix;
+                padding-bottom: 10%;
+            }
+            .imageTwentySeven{
+                grid-area: imageTwentySeven;
+                padding-bottom: 10%;
+            }
+            .imageTwentyEight{
+                grid-area: imageTwentyEight;
+                padding-bottom: 10%;
+            }
+            .imageTwentyNine{
+                grid-area: imageTwentyNine;
+                padding-bottom: 10%;
+            }
+            .imageThirty{
+                grid-area: imageThirty;
+                padding-bottom: 10%;
+            }
+            .imageThirtyOne{
+                grid-area: imageThirtyOne;
+                padding-bottom: 10%;
+            }
+            .imageThirtyTwo{
+                grid-area: imageThirtyTwo;
+                padding-bottom: 10%;
+            }
+            .imageThirtyThree{
+                grid-area: imageThirtyThree;
+                padding-bottom: 10%;
+            }
+            .imageThirtyFour{
+                grid-area: imageThirtyFour;
+                padding-bottom: 10%;
+            }
+            .imageThirtyFive{
+                grid-area: imageThirtyFive;
+                padding-bottom: 10%;
+            }
+
+            .body1::-webkit-scrollbar{
+                display: none;
+            }
+
+            .body1{
+                -ms-overflow-style: none;  /* IE and Edge */
+                scrollbar-width: none;  /* Firefox */
+            }
+			
+			@media (max-width: 768px){
+				.siteTitle{
+                    word-break: break-word;
+                    font-size: 24px;
+                    width: 100%
+                }
+				img{
+                    width: auto;
+                    height: auto;
+                    max-width: 100%
+                }
+			}
+            @media (prefers-color-scheme: dark){
+                body{
+                    color: white;
+                    background: black
+                }
+
+                body a{
+                    color: white;
+                    text-decoration: none
+                }
+            }
+
+            
+        </style>
+    </head>
+    <body class="body1">
+        <div class="container">
+            <div class="siteTitle">
+                <a href="2020summer.html">
+                    2020summer_roll_a
+                </a>
+            </div>
+            <div class="imageOne">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_01.jpg" alt="2020summer_roll_a_01.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageTwo">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_02.jpg" alt="2020summer_roll_a_02.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageThree">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_03.jpg" alt="2020summer_roll_a_03.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageFour">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_04.jpg" alt="2020summer_roll_a_04.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageFive">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_05.jpg" alt="2020summer_roll_a_05.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageSix">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_06.jpg" alt="2020summer_roll_a_06.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageSeven">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_07.jpg" alt="2020summer_roll_a_07.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageEight">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_08.jpg" alt="2020summer_roll_a_08.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageNine">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_09.jpg" alt="2020summer_roll_a_09.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageTen">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_10.jpg" alt="2020summer_roll_a_10.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageEleven">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_11.jpg" alt="2020summer_roll_a_11.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageTwelve">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_12.jpg" alt="2020summer_roll_a_12.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageThirteen">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_13.jpg" alt="2020summer_roll_a_13.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageFourteen">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_14.jpg" alt="2020summer_roll_a_14.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageFifteen">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_15.jpg" alt="2020summer_roll_a_15.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageSixteen">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_16.jpg" alt="2020summer_roll_a_16.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageSeventeen">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_17.jpg" alt="2020summer_roll_a_.17jpg" width="507" height="750">
+                </center>
+            </div>
+            <div class="imageEighteen">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_18.jpg" alt="2020summer_roll_a_18.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageNineteen">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_19.jpg" alt="2020summer_roll_a_19.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageTwenty">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_20.jpg" alt="2020summer_roll_a_20.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageTwentyOne">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_21.jpg" alt="2020summer_roll_a_21.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageTwentyTwo">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_22.jpg" alt="2020summer_roll_a_22.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageTwentyThree">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_23.jpg" alt="2020summer_roll_a_23.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageTwentyFour">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_24.jpg" alt="2020summer_roll_a_24.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageTwentyFive">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_25.jpg" alt="2020summer_roll_a_25.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageTwentySix">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_26.jpg" alt="2020summer_roll_a_26.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageTwentySeven">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_27.jpg" alt="2020summer_roll_a_27.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageTwentyEight">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_28.jpg" alt="2020summer_roll_a_28.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageTwentyNine">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_29.jpg" alt="2020summer_roll_a_29.jpg" width="507" height="750">
+                </center>
+            </div>
+            <div class="imageThirty">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_30.jpg" alt="2020summer_roll_a_30.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageThirtyOne">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_31.jpg" alt="2020summer_roll_a_31.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageThirtyTwo">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_32.jpg" alt="2020summer_roll_a_32.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageThirtyThree">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_33.jpg" alt="2020summer_roll_a_33.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageThirtyFour">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_34.jpg" alt="2020summer_roll_a_34.jpg" width="750" height="507">
+                </center>
+            </div>
+            <div class="imageThirtyFive">
+                <center>
+                    <img src="../Images/2020summer/roll_a/2020summer_roll_a_35.jpg" alt="2020summer_roll_a_35.jpg" width="750" height="507">
+                </center>
+            </div>
+        </div>        
+    </body>
+</html>
