@@ -169,3 +169,16 @@ td{
         right: auto;
     }
 }
+
+/* auto-dark mode */
+@media (prefers-color-scheme: dark){
+    body{
+        color: white;
+        background: black
+    }
+
+    body a{
+        color: white;
+        text-decoration: none
+    }
+}

@@ -1,5 +1,5 @@
 /* 
-"style.css" for design.seandaros.net
+"style.css" for seandaros.net
 available under GNU General Public License v2
 
 sean da ros - 20211128
@@ -167,5 +167,18 @@ td{
         max-width: 100%;
         left: auto;
         right: auto;
+    }
+}
+
+/* auto-dark mode */
+@media (prefers-color-scheme: dark){
+    body{
+        color: white;
+        background: black
+    }
+
+    body a{
+        color: white;
+        text-decoration: none
     }
 }
