@@ -1,0 +1,184 @@
+/* 
+"style.css" for seandaros.net
+available under GNU General Public License v2
+
+sean da ros - 20211128
+*/
+
+/* initialize fonts */
+@font-face{
+    font-family: "helvetica_bold";
+    font-style: none;
+    font-weight: bold;
+    src: url("fonts/helvetica_bold.woff2") format("woff2"), url("fonts/helvetica_bold.woff") format("woff");
+}
+
+@font-face{
+    font-family: "times_new_roman_italic";
+    font-style: italic;
+    font-weight: normal;
+    src: url("fonts/times_new_roman_italic.ttf");
+}
+
+/* links (all) */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* body */
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+/* title (on website) */
+.title{
+    font-family: "helvetica_bold";
+    letter-spacing: -2px;
+    font-size: 55px;
+
+    overflow-wrap: break-word;
+}
+
+/* links (div) */
+.links{
+    font-family: "times_new_roman_italic";
+    font-style: italic;
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-top: 0.5%;
+}
+
+/* links (div)(individual links) */
+.links a{
+    padding-bottom: 8px;
+}
+
+/* images (div) */
+.images{
+    display: flex;
+    flex-direction: column;
+}
+
+/* images (div)(individual images) */
+.images img{
+    padding-bottom: 20px;
+    align-self: flex-start;
+}
+
+/* text (div) */
+.text{
+    font-family: "times_new_roman_italic";
+    font-style: italic;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 1%;
+    padding-top: 0.5%;
+}
+
+/* text (div)(individual pieces) */
+.text p{
+    padding-bottom: 8px;
+}
+
+/* text2 (div) */
+.text2{
+    font-family: "monospace";
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 1%;
+    padding-top: 0.5%;
+}
+
+/* text2 (div)(individual pieces) */
+.text2 p{
+    padding-bottom: 8px;
+}
+
+/* strike (span) */
+.strike{
+    text-decoration: line-through;
+}
+
+/* table */
+table{
+    max-width: 380px;
+    border-collapse: collapse;
+}
+
+table caption{
+    font-family: "helvetica_bold";
+    font-size: 16px;
+
+    text-align: left;
+}
+
+td{
+    border: 1px black solid;
+    margin: 0;
+}
+
+/* license */
+.license{
+    font-family: "times_new_roman_italic";
+    font-style: italic;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.5%;
+}
+
+/* license (individual paragraphs) */
+.license p{
+    padding-left: 15px;
+    padding-bottom: 8px;
+}
+
+/* license (image) */
+.license img{
+    padding-top: 10px;
+}
+
+/* logo */
+.logo{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+/* media queries (mobile responsive) */
+@media screen and (max-width: 1160px){
+    /* images (div)(individual images)(when screen < 1160px) */
+    .images img{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        left: auto;
+        right: auto;
+    }
+}
+
+/* auto-dark mode */
+@media (prefers-color-scheme: dark){
+    body{
+        color: white;
+        background: black
+    }
+
+    body a{
+        color: white;
+        text-decoration: none
+    }
+}
